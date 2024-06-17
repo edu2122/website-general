@@ -1,0 +1,39 @@
+---
+import Analysis from "../components/Analysis.astro";
+import Bibliography from "../components/Bibliography.astro";
+import CulturalImpact from "../components/CulturalImpact.astro";
+import Gallery from "../components/Gallery.astro";
+import Hero from "../components/Hero.astro";
+import HistoryAndOrigin from "../components/HistoryAndOrigin.astro";
+import Introduction from "../components/Introduction.astro";
+import SectionContainer from "../components/SectionContainer.astro";
+import Layout from "../layouts/Layout.astro";
+---
+
+<Layout title="Welcome to Astro.">
+  <main>
+    <SectionContainer class="py-16 md:py-36">
+      <Hero />
+    </SectionContainer>
+    <SectionContainer class="py-16 md:py-36">
+      <Introduction />
+    </SectionContainer>
+    <SectionContainer class="py-16 md:py-36">
+      <HistoryAndOrigin />
+    </SectionContainer>
+    <SectionContainer class="py-16 md:py-36">
+      <CulturalImpact />
+    </SectionContainer>
+    <SectionContainer class="py-16 md:py-36">
+      <Analysis />
+    </SectionContainer>
+    <SectionContainer class="py-16 md:py-36">
+      <Gallery />
+    </SectionContainer>
+    <SectionContainer class="py-16 md:py-36">
+      <Bibliography />
+    </SectionContainer>
+  </main>
+</Layout>
+
+<style></style>
