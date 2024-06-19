@@ -1,9 +1,121 @@
-<h2>Introduccción</h2>
-<ul>
-  <li>Breve presentación del tema.</li>
-  <li>
-    Importancia cultural y económica de Maizena, Ovomaltina y Toronto en
-    Venezuela.
-  </li>
-  <li>Mapa del sitio (estructura de la página).</li>
-</ul>
+---
+import Button from "./Button.astro";
+import Subtitle from "./Subtitle.astro";
+---
+
+<Subtitle>Introducción</Subtitle>
+<p class="text-gray-300">
+  <span class="text-yellow-300"> La Maizena, Ovomaltina y los Torontos</span> son
+  productos emblemáticos en la gastronomía venezolana. Cada uno, con su historia
+  única y su impacto cultural, refleja aspectos importantes de la identidad y las
+  <span class="text-yellow-300">tradiciones venezolanas.</span>
+</p>
+<p class="text-gray-300">
+  Este sitio web explorará la historia, <span class="text-yellow-300"
+    >el desarrollo y la influencia cultural</span
+  >
+  de estos productos, proporcionando una visión comprensiva de su relevancia en la
+  <span class="text-yellow-300"> vida cotidiana de los venezolanos.</span>
+</p>
+
+<h4 class="text-2xl font-semibold mb-5 mt-10 text-yellow-400">
+  Importancia cultural y económica en Venezuela.
+</h4>
+<div class="flex justify-center items-center">
+  <div class="flex flex-col gap-6">
+    <p class="text-gray-300">
+      <span class="text-yellow-300">
+        La Maizena, Ovomaltina y los Torontos</span
+      > son más que simples productos alimenticios en Venezuela; son símbolos de
+      la identidad cultural y tradiciones del país.
+    </p>
+    <p class="text-gray-300">
+      Desde la versatilidad de la Maizena en la cocina venezolana, pasando por
+      el papel de la Ovomaltina en la infancia, hasta los Torontos en <span
+        class="text-yellow-300">celebraciones y eventos.</span
+      >
+    </p>
+    <p class="text-gray-300">
+      Estos productos representan la riqueza culinaria y el <span
+        class="text-yellow-300"
+      >
+        impacto económico</span
+      > en la vida diaria de los venezolanos.
+    </p>
+  </div>
+  <img
+    class="size-[300px] rounded-xl"
+    src="https://i.pinimg.com/originals/5c/be/c5/5cbec5c57f54c5922873109f843fe5c0.jpg"
+    alt=""
+  />
+</div>
+<h2 class="text-2xl font-semibold mb-5 mt-10 text-yellow-400">
+  Mapa del Sitio
+</h2>
+
+<ol class="relative border-s border-gray-200 dark:border-gray-400 flex gap-4">
+  <div>
+    <li class="mb-10 ms-4">
+      <span class="text-yellow-400 -left-[10px] absolute rounded-full text-5xl"
+        >•</span
+      >
+
+      <h3 class="text-lg font-semibold text-gray-900 dark:text-yellow-300">
+        Historia y Origen
+      </h3>
+      <p class="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">
+        Descubre el origen y la evolución de la Maizena, Ovomaltina y Torontos,
+        y cómo se integraron en la cultura venezolana.
+      </p>
+      <Button href="/#history"> Ve alli </Button>
+    </li>
+    <li class="mb-10 ms-4">
+      <h3 class="text-lg font-semibold text-gray-900 dark:text-yellow-300">
+        Impacto Cultural
+      </h3>
+      <p class="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">
+        Explora la influencia de estos productos en las tradiciones y
+        celebraciones venezolanas.
+      </p>
+      <Button href="/#cultural-impact"> Ve alli </Button>
+    </li>
+  </div>
+  <div>
+    <li class="mb-10 ms-4">
+      <h3 class="text-lg font-semibold text-gray-900 dark:text-yellow-300">
+        Análisis y Argumento
+      </h3>
+      <p class="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">
+        Un análisis comparativo de estos productos en términos de impacto
+        cultural y económico.
+      </p>
+      <Button href="/#analysis"> Ve alli </Button>
+    </li>
+    <li class="mb-10 ms-4">
+      <span class="text-yellow-400 -left-[10px] absolute rounded-full text-5xl"
+        >•</span
+      >
+
+      <h3 class="text-lg font-semibold text-gray-900 dark:text-yellow-300">
+        Bibliografía y Fuentes
+      </h3>
+      <p class="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">
+        Listado de las fuentes primarias y secundarias utilizadas en la
+        investigación.
+      </p>
+      <Button href="/#bibliography"> Ve alli </Button>
+    </li>
+  </div>
+  <div>
+    <li class="mb-10 ms-4">
+      <h3 class="text-lg font-semibold text-gray-900 dark:text-yellow-300">
+        Galería Multimedia
+      </h3>
+      <p class="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">
+        Imágenes y videos que ilustran la historia y el impacto de estos
+        productos en Venezuela.
+      </p>
+      <Button href="/#gallery"> Ve alli </Button>
+    </li>
+  </div>
+</ol>

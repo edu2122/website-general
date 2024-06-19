@@ -45,7 +45,7 @@ const { title } = Astro.props;
   }
   body {
     min-height: 100dvh;
-    font-family: "Noto Serif JP Variable", system-ui, serif;
+    /* font-family: "Noto Serif JP Variable", system-ui, serif; */
   }
   input,
   button,
@@ -81,12 +81,16 @@ const { title } = Astro.props;
       scroll-behavior: auto !important;
       transition: none;
     }
+    html {
+      scroll-behavior: auto;
+    }
   }
 
   html {
     font-family: system-ui, sans-serif;
     background: #13151a;
     background-size: 224px;
+    scroll-behavior: smooth;
   }
   #header-nav {
     animation: blur linear both;
