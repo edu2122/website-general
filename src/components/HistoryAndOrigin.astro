@@ -1,24 +1,17 @@
 ---
+import { CarouselMaizena } from "./CarouselMaizena";
+import { CarouselOvomaltina } from "./CarouselOvomaltina";
 import Subtitle from "./Subtitle.astro";
-
 ---
 
 <Subtitle>Historia y Origen</Subtitle>
 
 <!-- Esquema -->
-<div>
-  <h3 class="text-lg font-semibold text-gray-900 dark:text-yellow-300">Maizena</h3>
-  <ul>
-    <li>Origen y desarrollo del producto.</li>
-    <li>Usos tradicionales y contemporáneos en la cocina venezolana.</li>
-  </ul>
+<div class="mb-8">
+  <CarouselMaizena client:load />
 </div>
 <div>
-  <h3>Ovomaltina</h3>
-  <ul>
-    <li>Historia de la marca y su introducción en Venezuela.</li>
-    <li>Popularidad y usos comunes.</li>
-  </ul>
+  <CarouselOvomaltina client:load />
 </div>
 <div>
   <h3>Toronto</h3>

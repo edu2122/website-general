@@ -7,7 +7,8 @@ import Hero from "../components/Hero.astro";
 import HistoryAndOrigin from "../components/HistoryAndOrigin.astro";
 import Introduction from "../components/Introduction.astro";
 import SectionContainer from "../components/SectionContainer.astro";
-import Layout from "../layouts/Layout.astro";
+import Layout from "@/layouts/Layout.astro";
+import "@/styles/globals.css";
 ---
 
 <Layout title="Welcome to Astro.">
@@ -18,7 +19,7 @@ import Layout from "../layouts/Layout.astro";
     <SectionContainer class="py-16 md:py-36">
       <Introduction />
     </SectionContainer>
-    <SectionContainer id="history" class="py-16 md:py-24">
+    <SectionContainer id="history" class="py-16 md:py-18">
       <HistoryAndOrigin />
     </SectionContainer>
     <SectionContainer id="cultural-impact" class="py-16 md:py-36">
@@ -36,4 +37,26 @@ import Layout from "../layouts/Layout.astro";
   </main>
 </Layout>
 
-<style></style>
+<script is:inline>
+  const getThemePreference = () => {
+    if (typeof localStorage !== "undefined" && localStorage.getItem("theme")) {
+      return localStorage.getItem("theme");
+    }
+    return window.matchMedia("(prefers-color-scheme: dark)").matches
+      ? "dark"
+      : "light";
+  };
+  const isDark = getThemePreference() === "dark";
+  document.documentElement.classList[isDark ? "add" : "remove"]("dark");
+
+  if (typeof localStorage !== "undefined") {
+    const observer = new MutationObserver(() => {
+      const isDark = document.documentElement.classList.contains("dark");
+      localStorage.setItem("theme", isDark ? "dark" : "light");
+    });
+    observer.observe(document.documentElement, {
+      attributes: true,
+      attributeFilter: ["class"],
+    });
+  }
+</script>
