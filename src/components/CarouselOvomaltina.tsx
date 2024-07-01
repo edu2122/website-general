@@ -12,8 +12,7 @@ import {
 const arrayInfo = [
   {
     title: "Historia de la Ovomaltina y su Introducción",
-    content:
-      "Ovomaltina, conocida como Ovaltine en algunos países, es una marca de bebida nutritiva que se originó en Suiza en 1904. Fue desarrollada por el químico Dr. Georg Wander y su hijo Albert Wander. La bebida fue inicialmente creada como un suplemento alimenticio para ayudar a combatir la malnutrición, proporcionando una fuente rica en vitaminas, minerales y maltodextrina.",
+    content: "",
     firstSubtitle: "Historia de la Marca Ovomaltina",
     firstContent:
       "Ovomaltina, conocida como Ovaltine en algunos países, es una marca de bebida nutritiva que se originó en Suiza en 1904. Fue desarrollada por el químico Dr. Georg Wander y su hijo Albert Wander. La bebida fue inicialmente creada como un suplemento alimenticio para ayudar a combatir la malnutrición, proporcionando una fuente rica en vitaminas, minerales y maltodextrina.",

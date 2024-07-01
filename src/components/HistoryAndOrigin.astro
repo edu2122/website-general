@@ -1,6 +1,7 @@
 ---
 import { CarouselMaizena } from "./CarouselMaizena";
 import { CarouselOvomaltina } from "./CarouselOvomaltina";
+import { CarouselToronto } from "./CarouselToronto";
 import Subtitle from "./Subtitle.astro";
 ---
 
@@ -10,13 +11,9 @@ import Subtitle from "./Subtitle.astro";
 <div class="mb-8">
   <CarouselMaizena client:load />
 </div>
-<div>
+<div class="mb-8">
   <CarouselOvomaltina client:load />
 </div>
 <div>
-  <h3>Toronto</h3>
-  <ul>
-    <li>Creación y evolución del dulce.</li>
-    <li>Importancia cultural y su lugar en la gastronomía venezolana.</li>
-  </ul>
+  <CarouselToronto client:load />
 </div>
