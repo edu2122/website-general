@@ -3,7 +3,7 @@ import "photoswipe/style.css";
 import Subtitle from "./Subtitle.astro";
 ---
 
-<Subtitle>Gallery</Subtitle>
+<Subtitle>Galtería</Subtitle>
 <div class="grid grid-cols-3 max-w-6xl gap-4 mx-auto" id="gallery">
   {
     Array.from({ length: 22 }).map((_, i) => (
@@ -14,7 +14,7 @@ import Subtitle from "./Subtitle.astro";
         data-pswp-height="400"
         class="group relative"
       >
-        <img loading="lazy" src={`/public/gallery/img-${i + 1}.webp`} alt="" />
+        <img src={`/public/gallery/img-${i + 1}.webp`} alt="" />
       </a>
     ))
   }
