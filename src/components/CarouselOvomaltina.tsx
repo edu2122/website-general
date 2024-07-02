@@ -33,9 +33,9 @@ const arrayInfo = [
     secondContent:
       "La Ovomaltina se ha establecido firmemente en la cultura popular venezolana. Anuncios publicitarios memorables y su presencia constante en hogares han consolidado su lugar en la memoria colectiva del país.",
     image1:
-      "https://http2.mlstatic.com/D_NQ_NP_803569-MLV72861853898_112023-O.webp",
+      "https://http2.mlstatic.com/D_NQ_NP_938895-MLU73331817766_122023-O.webp",
     image2:
-      "https://urielcavzla.com/wp-content/uploads/2023/01/ovomaltina_Mesa-de-trabajo-1-600x600.jpg",
+      "https://http2.mlstatic.com/D_NQ_NP_801734-MLU73331788032_122023-O.webp",
   },
   {
     title: "Popularidad y Usos Comunes en Venezuela",
@@ -49,9 +49,9 @@ const arrayInfo = [
     thirdContent:
       "La Ovomaltina es un complemento popular en batidos y smoothies, donde se mezcla con frutas y yogur para crear bebidas energéticas y nutritivas.",
     image1:
-      "https://http2.mlstatic.com/D_NQ_NP_803569-MLV72861853898_112023-O.webp",
+      "https://www.alfonzorivas.com/images/productos/detalle/lata_ovomaltina.jpg",
     image2:
-      "https://urielcavzla.com/wp-content/uploads/2023/01/ovomaltina_Mesa-de-trabajo-1-600x600.jpg",
+      "https://http2.mlstatic.com/D_NQ_NP_838966-MLU73331788060_122023-O.webp",
   },
 ];
 

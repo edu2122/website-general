@@ -1,6 +1,31 @@
-<h2>Galeria multimedia</h2>
+---
+import "photoswipe/style.css";
+import Subtitle from "./Subtitle.astro";
+---
 
-<ul>
-  <li>Imágenes y videos relevantes.</li>
-  <li>Citas adecuadas para cada imagen y video.</li>
-</ul>
+<Subtitle>Gallery</Subtitle>
+<div class="grid grid-cols-3 max-w-6xl gap-4 mx-auto" id="gallery">
+  {
+    Array.from({ length: 22 }).map((_, i) => (
+      <a
+        class="w-auto  h-auto rounded-xl overflow-hidden shadow-xl shadow-blue-400/10 hover:shadow-2xl hover:shadow-blue-500/75 transition-all hover:scale-110"
+        href={`/public/gallery/img-${i + 1}.webp`}
+        data-pswp-width="1080"
+        data-pswp-height="400"
+        class="group relative"
+      >
+        <img loading="lazy" src={`/public/gallery/img-${i + 1}.webp`} alt="" />
+      </a>
+    ))
+  }
+</div>
+
+<script>
+  import PhotoSwipeLightbox from "photoswipe/lightbox";
+  const lightbox = new PhotoSwipeLightbox({
+    gallery: "#gallery",
+    children: "a",
+    pswpModule: () => import("photoswipe"),
+  });
+  lightbox.init();
+</script>

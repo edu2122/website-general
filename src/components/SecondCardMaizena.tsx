@@ -5,20 +5,19 @@ export function SecondCardMaizena() {
     <Card className="w-[700px] bg-transparent">
       <CardHeader>
         <CardTitle className="text-yellow-300">
-          Papel de la Maizena en Festividades
+          Maizena en Festividades
         </CardTitle>
       </CardHeader>
-      <CardContent className="flex">
+      <CardContent className="flex items-center justify-center">
         <div>
           <p>
-            <span className="text-yellow-200">Semana Santa: </span> Durante la
-            Semana Santa, la Maizena es un ingrediente clave en la elaboración
+            <span className="text-yellow-200">Semana Santa: </span>La Maizena es un ingrediente clave en la elaboración
             del majarete, un postre tradicional a base de maíz y coco. Este
             postre es una parte importante de las celebraciones religiosas y
             familiares.
           </p>
           <p>
-            <span className="text-yellow-200">⚪ Navidad: </span>
+            <span className="text-yellow-200">Navidad: </span>
             En la temporada navideña, la Maizena se utiliza en la preparación de
             hallacas, específicamente en la masa que envuelve el relleno. Aunque
             no es el ingrediente principal, su uso mejora la textura y la
@@ -26,7 +25,7 @@ export function SecondCardMaizena() {
             gastronómica.
           </p>
           <p>
-            <span className="text-yellow-200">⚪ Carnavales: </span>
+            <span className="text-yellow-200">Carnavales: </span>
             Durante las festividades de Carnaval, es común preparar natillas, un
             postre hecho con leche, azúcar y Maizena. Este postre se disfruta en
             reuniones familiares y es una tradición que se ha mantenido a lo
@@ -34,8 +33,8 @@ export function SecondCardMaizena() {
           </p>
         </div>
         <img
-          className="size-72"
-          src="https://http2.mlstatic.com/D_NQ_NP_796198-MLV30957242037_062019-O.webp"
+          className=" size-60 rounded-xl"
+          src="https://imgmedia.larepublica.pe/640x371/larepublica/migration/images/7F5UWCI26ZCPVLRVODF622BPYA.webp"
           alt=""
         />
       </CardContent>

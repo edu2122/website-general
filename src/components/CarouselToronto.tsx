@@ -22,9 +22,9 @@ const arrayInfo = [
     thirdContent:
       "En 1988, Nestlé adquirió Savoy, y con ello, la producción del Toronto. Esta adquisición permitió la expansión de la distribución del dulce a nivel nacional e internacional, manteniendo la receta original que lo hizo famoso.",
     image1:
-      "https://lokierotumuch.com/wp-content/uploads/2021/06/Toronto-lo-kiero-tu-much-stratus-agency-group-1170x731.png",
+      "https://www.nestleprofessional-latam.com/sites/default/files/styles/np_hero_small_big/public/2024-05/banner-savoy.webp?itok=bAjvq1N5",
     image2:
-      "https://socialite360.com/wp-content/uploads/2023/10/Sin-titulo-3-143-800x445.jpg",
+      "https://thefoodtech.com/wp-content/uploads/2023/05/nestle-i-828x548.jpg",
   },
   {
     title: "Importancia Cultural y Lugar en la Gastronomía",
@@ -38,9 +38,9 @@ const arrayInfo = [
     thirdContent:
       "El Toronto ha sido mencionado en canciones, programas de televisión y otras formas de cultura popular en Venezuela, consolidando su estatus como un ícono cultural.",
     image1:
-      "https://http2.mlstatic.com/D_NQ_NP_803569-MLV72861853898_112023-O.webp",
+      "https://venezuelatiendaonline.com/wp-content/uploads/2020/07/Torontos-caja.jpg",
     image2:
-      "https://urielcavzla.com/wp-content/uploads/2023/01/ovomaltina_Mesa-de-trabajo-1-600x600.jpg",
+      "https://venezuelatiendaonline.com/wp-content/uploads/2020/07/toronto-u.jpg",
   },
   {
     title: "Importancia Cultural y Lugar en la Gastronomía",
@@ -54,9 +54,9 @@ const arrayInfo = [
     thirdContent:
       "Además de su uso en celebraciones, el Toronto es consumido cotidianamente como un antojo o merienda, siendo accesible en tiendas y supermercados en todo el país.",
     image1:
-      "https://http2.mlstatic.com/D_NQ_NP_803569-MLV72861853898_112023-O.webp",
+      "https://www.nestleprofessional-latam.com/sites/default/files/styles/np_product_detail/public/2023-12/CONFITES%2001-A.png?itok=5eqvHLuv",
     image2:
-      "https://urielcavzla.com/wp-content/uploads/2023/01/ovomaltina_Mesa-de-trabajo-1-600x600.jpg",
+      "https://www.nestleprofessional-latam.com/sites/default/files/styles/np_product_detail/public/2023-12/CONFITES%2001-E.png?itok=aWAx9NWT",
   },
 ];
 
@@ -72,7 +72,7 @@ export function CarouselToronto() {
                   <h3 className="text-3xl text-yellow-400 mb-8 underline">
                     {info.title}
                   </h3>
-                  <p className="text-gray-300 mb-8">{info.content}</p>
+                  {/* <p className="text-gray-300 mb-8">{info.content}</p> */}
                   <div className="mb-8">
                     <h4 className="text-left text-xl text-yellow-300">
                       {info.firstSubtitle}

@@ -32,9 +32,9 @@ const arrayInfo = [
       "La Maizena se ha convertido en un ingrediente básico en la despensa de los hogares venezolanos. Su uso se ha transmitido de generación en generación, convirtiéndose en un componente esencial de muchas recetas familiares. En la cultura popular, la Maizena es sinónimo de tradición y hogar, simbolizando el sabor y la consistencia de la cocina casera.",
     secondSubtitle: "Innovación y Diversificación",
     secondContent:
-      "A lo largo de los años, la Maizena ha evolucionado para adaptarse a las necesidades del mercado. Se han deCon el tiempo, los fabricantes locales han diversificado la oferta de productos a base de Maizena, adaptándola a diferentes necesidades culinarias y dietéticas. Esto incluye la creación de mezclas para postres y productos instantáneos que facilitan la preparación de comidas tradicionales y modernas.",
+      "A lo largo de los años, la Maizena ha evolucionado para adaptarse a las necesidades del mercado. Con el tiempo, los fabricantes locales han diversificado la oferta de productos a base de Maizena, adaptándola a diferentes necesidades culinarias y dietéticas. Esto incluye la creación de mezclas para postres y productos instantáneos que facilitan la preparación de comidas tradicionales y modernas.",
     image1:
-      "https://quemantequilla.online/wp-content/uploads/2019/09/Maizena-Americana-jpg.webp",
+      "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgAhLhRVZ-wO1P-poTvgtfXgcPxMQUtWuz3r0Ou-CjDDz6pyO34jItnEw-iq2x3xc6wKCYeEmO0BKVcUA_TUnYsC3pTANIH2WrPT4-_qQ13QMjWRmlpS8MHx0OFDFVPfZ7StCxNVtj8KJ3T/s1600/Maizina+Americana-2009.jpg",
     image2:
       "https://http2.mlstatic.com/D_NQ_NP_796198-MLV30957242037_062019-O.webp",
   },

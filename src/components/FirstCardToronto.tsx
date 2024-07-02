@@ -2,13 +2,13 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 
 export function FirstCardToronto() {
   return (
-    <Card className="w-[700px] bg-transparent">
+    <Card className="w-[800px] bg-transparent">
       <CardHeader>
         <CardTitle className="text-yellow-300">
-          Papel de la Maizena en Festividades
+          Toronto en Festividades
         </CardTitle>
       </CardHeader>
-      <CardContent className="flex">
+      <CardContent className="flex items-center justify-center">
         <div>
           <p>
             <span className="text-yellow-200">Navidad: </span>
@@ -38,8 +38,8 @@ export function FirstCardToronto() {
           </p>
         </div>
         <img
-          className="size-72"
-          src="https://http2.mlstatic.com/D_NQ_NP_796198-MLV30957242037_062019-O.webp"
+          className="size-60 rounded-xl"
+          src="https://pxcdn.meridiano.net/122023/1703429557692.webp?cw=1155&ch=650&extw=jpg"
           alt=""
         />
       </CardContent>
